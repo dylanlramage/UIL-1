@@ -1,0 +1,10 @@
+first line of text
+line #2
+
+for (int four = 0; four < 4; four++)
+{
+	System.out.println("six");
+}
+VIII
+one less then 10
+TENTH and FINAL LINE OF INPUT

@@ -54,6 +54,7 @@ public class Practice {
     	out.println("Wanna go again?");
     	out.println("[YES] or [NO]");
     	String ans = scan.nextLine();
+        ans.toUpperCase();
     	while(true) {
     		if(ans.equals("YES")) {
     			modP();
@@ -83,6 +84,7 @@ public class Practice {
 		out.println("Wanna go again?");
     	out.println("[YES] or [NO]");
     	String a = scan.nextLine();
+        a.toUpperCase();
     	while(true) {
     		if(a.equals("YES")) {
     			conP();
@@ -101,7 +103,7 @@ public class Practice {
     	byte r = (byte)(Math.random()*128);
         byte op = (byte)(Math.random()*128);
         out.println("In a signed byte...");
-        out.println(Integer.toBinaryString(r) + " plus " + op + " is: ");
+        out.println(Integer.toBinaryString(r) + " plus " + Integer.toBinaryString(op) + " is: ");
         String ans = scan.nextLine();
         if(ans.equals(Integer.toBinaryString(r))) {
             out.println("Yay! You got it right!");
@@ -112,6 +114,7 @@ public class Practice {
         out.println("Wanna go again?");
     	out.println("[YES] or [NO]");
     	String a = scan.nextLine();
+        a.toUpperCase();
     	while(true) {
     		if(a.equals("YES")) {
     			binP();
